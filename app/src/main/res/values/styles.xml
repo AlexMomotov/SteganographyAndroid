@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Theme -->
+    <style name="FSociety" parent="carbon_Theme.Dark.NoActionBar">
+        <item name="colorPrimary">@color/night_normal</item>
+        <item name="colorPrimaryDark">@color/night_dark</item>
+        <item name="colorAccent">@color/rose_normal</item>
+        <item name="drawerArrowStyle">@style/DrawerToggle</item>
+        <item name="actionModeStyle">@style/ActionMode</item>
+        <item name="actionModeBackground">@color/snow</item>
+        <item name="actionModeCloseButtonStyle">@style/CloseButton</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButton</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/NavigationButton</item>
+    </style>
+
+    <!-- App Widget Styles -->
+    <style name="DrawerToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/frost</item>
+        <item name="height">40sp</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="colorControlHighlight">@color/frost</item>
+        <item name="maxButtonHeight">48dp</item>
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="android:paddingLeft">@dimen/toolbar_h_padding</item>
+        <item name="android:paddingRight">@dimen/toolbar_h_padding</item>
+        <item name="contentInsetStart">@dimen/first_keyline</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TitleText</item>
+    </style>
+
+    <style name="TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/frost</item>
+    </style>
+
+    <style name="NavigationButton" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">48dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="OverflowButton" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="CloseButton" parent="Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:minWidth">48dp</item>
+    </style>
+
+    <style name="ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="android:paddingLeft">@dimen/toolbar_h_padding</item>
+        <item name="android:paddingRight">@dimen/toolbar_h_padding</item>
+    </style>
+
+</resources>

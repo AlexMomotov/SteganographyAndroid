@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+    <dimen name="toolbar_h_padding">4dp</dimen>
+    <dimen name="header_logo_padding_top">36dp</dimen>
+    <dimen name="header_logo_padding_bottom">36dp</dimen>
+</resources>

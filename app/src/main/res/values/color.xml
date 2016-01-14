@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Night -->
+    <color name="night_dark">#2d3130</color>
+    <color name="night_normal">#3c4240</color>
+    <color name="night_light">#c4c6c5</color>
+
+    <!-- Rose -->
+    <color name="rose_dark">#9a1e1e</color>
+    <color name="rose_normal">#c12526</color>
+    <color name="rose_light">#ecbdbd</color>
+
+    <!-- Stone -->
+    <color name="stone_dark">#ff2e2e2e</color>
+    <color name="stone_normal">#ff747474</color>
+    <color name="stone_tint">#ff777777</color>
+    <color name="stone_light">#ffeeeeee</color>
+
+    <!-- Frost -->
+    <color name="frost">#e6ffffff</color>
+
+    <!-- Frost -->
+    <color name="glass">#b3ffffff</color>
+
+    <!-- Snow -->
+    <color name="snow">#ffffffff</color>
+
+    <!-- Dust -->
+    <color name="dust">#33747474</color>
+
+    <!-- Dust -->
+    <color name="ice">#33ffffff</color>
+
+    <!-- Invisible -->
+    <color name="invisible">#00000000</color>
+
+    <!-- Wire -->
+    <color name="wire">#ffdcdcdc</color>
+
+    <!-- Rope -->
+    <color name="rope">#1f000000</color>
+
+</resources>

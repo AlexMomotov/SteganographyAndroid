@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Steganography</string>
+    <string name="create">Create</string>
+    <string name="find">Find</string>
+
+    <string name="dialog_error_small_image_title">Ooooops!</string>
+    <string name="dialog_error_small_image_content">Looks like the image which you selected to hide file is too small to store such big data. Please, try to choose another one.</string>
+    <string name="dialog_error_small_image_close">Close</string>
+
+    <string name="dialog_error_no_password_title">Ooooops!</string>
+    <string name="dialog_error_no_password_content">Looks like password is wrong. Or maybe there is no secret file in image.</string>
+    <string name="dialog_error_no_password_close">Close</string>
+
+    <string name="dialog_file_ext_title">File type</string>
+    <string name="dialog_file_ext_content">What type of file do you suppose to find?</string>
+    <string name="dialog_file_ext_input">Extension</string>
+    <string name="dialog_file_ext_close">Close</string>
+
+    <string name="dialog_password_title">Secret key</string>
+    <string name="dialog_password_input">Key</string>
+
+    <string name="dialog_load_title">Work in progress</string>
+    <string name="dialog_load_please_wait">Please wait...</string>
+
+    <string name="dialog_about_title">About</string>
+    <string name="dialog_about_content">Small app, developed by group of students: \nAlexander Momotov;\nMaxim Pivovarov;\nAndrei Belunov;\nSemen Kornev;\nDmitrii Nikitin.</string>
+    <string name="dialog_about_close">Close</string>
+
+    <string name="toast_permission_description">To use this feature - allow app to use filesystem</string>
+    <string name="toast_permission_no">No permission - no party</string>
+
+    <string name="main_button_create">Create Secret</string>
+    <string name="main_button_find">Find Some Shit</string>
+
+    <string name="menu_about">About</string>
+
+    <string name="menu_share">Share</string>
+
+    <string name="create_step_picture_title">Choose image to hide</string>
+    <string name="create_step_file_title">Add your secret file</string>
+    <string name="create_step_password_title">Enter secret password</string>
+    <string name="create_step_share_title">Share secret image</string>
+
+    <string name="find_step_picture_title">Choose image to find</string>
+    <string name="find_step_password_title">Enter secret password</string>
+    <string name="find_step_ext_title">File extension to find</string>
+    <string name="find_step_share_title">Share secret file</string>
+
+</resources>
