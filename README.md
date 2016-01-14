@@ -2,7 +2,7 @@
 
 This is a small Android app project. It was created to show steganography capabilities.
 
-![App screens](http://i.imgur.com/0zz2EpL.png?1 "Optional title")
+![App screens](http://i.imgur.com/0zz2EpL.png?1 "App screens")
 
 <b>Authors:</b>
 
